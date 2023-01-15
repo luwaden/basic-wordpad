@@ -1,0 +1,54 @@
+
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.grey-text{
+    color: #616161;
+}
+
+img {
+    width: 500px;
+}
+
+body {
+    height: 1000px;
+}
+
+#page {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    height: auto;
+    padding: 10px;
+}
+
+button {
+    border: 3px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #fdfeff;
+}
+
+option {
+    border: 3px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #fdfeff;
+}
+
+#settings {
+    display: flex;
+    flex-direction: row;
+}

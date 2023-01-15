@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word-editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Word-Editor</h1>
+    
+    <div id="settings">
+            
+
+             <div id="">
+                <button id="btn" onclick="toggleUnderline()"><u>U</u></button>
+                <button id="btn" onclick="toggleBold()"><b>B</b></button>
+                <button id="btn" onclick="toggleItalic()"><i>I</i></button>
+             
+
+                <select id="input-font" class="input" onchange="changeFont(this);">
+                <option value="Monospace" selected ="selected">
+                    Monospace
+                </option>
+                
+                <option value="Times New Roman">
+                    Times New Roman
+                </option>
+
+                <option value="sans-serif">
+                     sans-serif
+                </option>
+
+                <option value="Segoe UI">
+                     Segoe UI 
+                </option>
+
+                <option value="Helvetica Neue" >
+                    Helvetica Neue
+                </option>
+
+                <option value="Arial">Arial</option>
+
+                <option value="cursive">cursive</option>
+
+                <option value="roboto">Roboto</option>
+                
+                </select>
+            </div>
+
+                <div>
+                    <button id="btn" onclick="setColor()"> Set Color</button>
+                    <input type="value"> 
+                </div>
+            
+    
+               <div>
+                    <button id="btn" onclick="setLink()">Set Link</button>
+                    <input type="value" value="#" placeholder="type img src">
+                </div>
+
+                <div>
+                <button id="btn" onclick="removeFormat()"> Remove Format</button>
+                </div>
+    </div>    
+    <br>
+
+    <textarea name="" id="page" cols="250" rows="80"> </textarea>
+    
+
+        <script src="index.js"></script>
+</body>
+</html>
